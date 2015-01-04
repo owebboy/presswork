@@ -4,7 +4,7 @@
   "description": "Words are defined by typography.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/owebboy/type.git"
+    "url": "git://github.com/owebboy/presswork.git"
   },
   "keywords": [
     "type",
@@ -17,9 +17,9 @@
   "author": "Oliver Pope <o@owebboy.com> (https://owebboy.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/owebboy/type/issues"
+    "url": "https://github.com/owebboy/presswork/issues"
   },
-  "homepage": "https://github.com/owebboy/type",
+  "homepage": "https://github.com/owebboy/presswork",
   "devDependencies": {
     "gulp-stylus": "~1.3.4",
     "gulp": "~3.8.10",

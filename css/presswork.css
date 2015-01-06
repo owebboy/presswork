@@ -29,7 +29,7 @@ ul {
 ol {
   list-style: decimal-leading-zero;
 }
-li {
+ul {
   list-style: square;
 }
 a {

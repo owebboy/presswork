@@ -3,7 +3,7 @@
  */
 html {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #666;
+  color: #4c4c4c;
   font-kerning: normal;
 }
 html,
@@ -38,7 +38,7 @@ a {
   border-bottom: 1px solid #c6cbcc;
 }
 a:hover {
-  border-color: #666;
+  border-color: #4c4c4c;
   color: #000;
 }
 code {

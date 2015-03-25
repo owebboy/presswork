@@ -3,16 +3,13 @@
  */
 
 // monochromatic colors
-thunder = #4C4C4C
-steel = #666666
-iron = #C6CBCC
-oil = #3C3C3C
-black = #000000 
+black = #222
+gray = #ccc
 
 // text
 html 
 	font-family "Helvetica Neue", Arial, Helvetica, sans-serif;
-	color thunder
+	color black
 	font-kerning normal
 
 html, body
@@ -37,11 +34,11 @@ ul
 	list-style square
 
 a
-	color oil
+	color black
 	text-decoration none
-	border-bottom 1px solid iron
+	border-bottom 1px solid gray
 	&:hover 
-		border-color thunder
+		border-color black
 		color black
 
 code
@@ -93,9 +90,9 @@ h6, .h6
 	
 // block elements
 blockquote
-	color iron
-	border-left 1px solid iron
+	color gray
+	border-left 1px solid gray
 
 hr
 	border 0
-	border-bottom: 1px solid iron
+	border-bottom: 1px solid gray

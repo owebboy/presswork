@@ -3,7 +3,7 @@
  */
 html {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #4c4c4c;
+  color: #222;
   font-kerning: normal;
 }
 html,
@@ -33,13 +33,13 @@ ul {
   list-style: square;
 }
 a {
-  color: #3c3c3c;
+  color: #222;
   text-decoration: none;
-  border-bottom: 1px solid #c6cbcc;
+  border-bottom: 1px solid #ccc;
 }
 a:hover {
-  border-color: #4c4c4c;
-  color: #000;
+  border-color: #222;
+  color: #222;
 }
 code {
   font-size: 0.9em;
@@ -108,10 +108,10 @@ h6,
   font-size: 1.05em;
 }
 blockquote {
-  color: #c6cbcc;
-  border-left: 1px solid #c6cbcc;
+  color: #ccc;
+  border-left: 1px solid #ccc;
 }
 hr {
   border: 0;
-  border-bottom: 1px solid #c6cbcc;
+  border-bottom: 1px solid #ccc;
 }

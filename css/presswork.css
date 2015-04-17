@@ -1,9 +1,12 @@
 /* presswork
  * owebboy
  */
+/* monochromatic colors ------------------------------- */
+/* text ------------------------------- */
 html {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #222;
+  color: #333;
+  background: #fff;
   font-kerning: normal;
 }
 html,
@@ -24,7 +27,7 @@ p {
 p,
 ol,
 ul {
-  line-height: 1.75em;
+  line-height: 2;
 }
 ol {
   list-style: decimal-leading-zero;
@@ -33,13 +36,13 @@ ul {
   list-style: square;
 }
 a {
-  color: #222;
+  color: #333;
   text-decoration: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #c5cbcc;
 }
 a:hover {
-  border-color: #222;
-  color: #222;
+  border-color: #333;
+  color: #333;
 }
 code {
   font-size: 0.9em;
@@ -55,7 +58,7 @@ code {
 .bold,
 b,
 strong {
-  font-weight: bold;
+  font-weight: 500;
 }
 .italic,
 i,
@@ -74,44 +77,49 @@ em {
 .right {
   text-align: right;
 }
+/* headings ------------------------------- */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 500;
   margin: 0.3em 0;
 }
 h1,
 .h1 {
-  font-size: 2.4em;
+  font-size: 3.5em;
 }
 h2,
 .h2 {
-  font-size: 1.75em;
+  font-size: 3em;
 }
 h3,
 .h3 {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 h4,
 .h4 {
-  font-size: 1.25em;
+  font-size: 2em;
 }
 h5,
 .h5 {
-  font-size: 1.15em;
+  font-size: 1.5em;
 }
 h6,
 .h6 {
   font-size: 1.05em;
 }
+/* block elements ------------------------------- */
 blockquote {
-  color: #ccc;
-  border-left: 1px solid #ccc;
+  margin: 1em 0;
+  line-height: 1.5em;
+  color: #333;
+  border-left: 1px solid #c5cbcc;
+  padding-left: 1em;
 }
 hr {
   border: 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #c5cbcc;
 }

@@ -2,21 +2,26 @@
  * owebboy
  */
 
-// monochromatic colors
-black = #222
-gray = #ccc
+/* monochromatic colors ------------------------------- */
+black = #333333
+gray = #C5CBCC
+concrete = #fff
 
-// text
+/* text ------------------------------- */
 html 
 	font-family "Helvetica Neue", Arial, Helvetica, sans-serif;
 	color black
+	background concrete
 	font-kerning normal
 
-html, body
+html, 
+body
 	margin 0
 	padding 0
 
-*, *:before, *:after
+*, 
+*:before, 
+*:after
 	box-sizing border-box
 
 p 
@@ -24,8 +29,10 @@ p
 	font-size 1.05em
 	margin 0
 
-p, ol, ul
-	line-height 1.75em
+p, 
+ol, 
+ul
+	line-height 2
 
 ol
 	list-style decimal-leading-zero
@@ -52,10 +59,14 @@ code
 .serif
 	font-family Georgia, "Times New Roman", Times, serif
 
-.bold, b, strong
-	font-weight bold
+.bold, 
+b, 
+strong
+	font-weight 500
 	
-.italic, i, em
+.italic, 
+i, 
+em
 	font-style italic
 	
 .oblique
@@ -70,28 +81,37 @@ code
 .right
 	text-align right
 
-// headings
+/* headings ------------------------------- */
 h1, h2, h3, h4, h5, h6
-	font-weight 700
+	font-weight 500
 	margin .3em 0
 
-h1, .h1
-	font-size 2.4em
-h2, .h2
-	font-size 1.75em
-h3, .h3
+h1, 
+.h1
+	font-size 3.5em
+h2, 
+.h2
+	font-size 3em
+h3, 
+.h3
+	font-size 2.5em
+h4, 
+.h4
+	font-size 2em
+h5, 
+.h5
 	font-size 1.5em
-h4, .h4
-	font-size 1.25em
-h5, .h5
-	font-size 1.15em
-h6, .h6
+h6, 
+.h6
 	font-size 1.05em
 	
-// block elements
+/* block elements ------------------------------- */
 blockquote
-	color gray
+	margin 1em 0
+	line-height 1.5em
+	color black
 	border-left 1px solid gray
+	padding-left 1em
 
 hr
 	border 0
